@@ -1270,6 +1270,7 @@ button, input, select, textarea {
   .hero-banner { padding: 2rem 1.5rem; }
   .hero-title { font-size: 1.75rem; }
   .course-detail-layout { grid-template-columns: 1fr; }
+  .nav-actions {display: none;}
 }
 
 @keyframes slideDown {
