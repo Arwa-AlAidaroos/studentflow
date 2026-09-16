@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { TaskProvider } from "@/context/TaskContext";
 
 export const metadata = {
   title: "StudentFlow",
@@ -11,13 +12,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* TODO: Add TaskProvider, Navbar, Footer */}
+        <TaskProvider>
         <Navbar/>
         <main className="main-content">
-          
-          {children}
+            {children}
         </main>
         <Footer/>
+        </TaskProvider>
       </body>
     </html>
   );

@@ -1,6 +1,5 @@
 import Link from "next/link";
 export default function Footer() {
-  // TODO: Build your Footer component here
   return (
     <footer className="footer-wrapper">
       <div className="container footer-inner">
